@@ -25,10 +25,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1-(Create our Virtual Machines)
+- Step 2-Ensure both VMs are in the same Virtual Network / Subnet
+- Step 3-Install Wireshark (Observe ICMP Traffic)
+- Step 4-Retrieve the private IP address of the Ubuntu VM (linux-vm) and attempt to ping it from within the Windows 10 VM
+- 
 
 <h2>Actions and Observations</h2>
 
