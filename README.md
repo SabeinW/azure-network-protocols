@@ -29,7 +29,31 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Step 2-Ensure both VMs are in the same Virtual Network / Subnet
 - Step 3-Install Wireshark (Observe ICMP Traffic)
 - Step 4-Retrieve the private IP address of the Ubuntu VM (linux-vm) and attempt to ping it from within the Windows 10 VM
-- 
+- (Configuring a Firewall [Network Security Group])
+- observe the ICMP traffic in WireShark
+- (Observe SSH Traffic)
+- in Wireshark, start a packet capture up
+- Filter for SSH traffic only From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address)
+-(Observe DHCP Traffic)
+-From your Windows 10 VM, attempt to issue your VM a new IP address from the command line
+- Open PowerShell as admin and run: ipconfig /renew
+Observe the DHCP traffic appearing in WireShark
+- (Observe DNS Traffic)
+- Back in Wireshark, filter for DNS traffic only
+From your Windows 10 VM within a command line, use nslookup to see what google.com and disney.com’s IP addresses are
+Observe the DNS traffic being show in WireShark
+-(Observe RDP Traffic)
+Back in Wireshark, filter for RDP traffic only (tcp.port == 3389)
+Observe the immediate non-stop spam of traffic?
+RDP (protocol) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted
+
+
+
+
+
+ 
+
+
 
 <h2>Actions and Observations</h2>
 
