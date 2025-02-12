@@ -35,7 +35,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - in Wireshark, start a packet capture up
 - Filter for SSH traffic only From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address)
 - Observe DHCP Traffic
-- From your Windows 10 VM, attempt to issue your VM a new IP address from the command line
 - Open PowerShell as admin and run: ipconfig /renew
   Observe the DHCP traffic appearing in WireShark
 - Observe DNS Traffic
