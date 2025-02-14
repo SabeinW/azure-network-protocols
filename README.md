@@ -81,7 +81,7 @@ Observing ICMP traffic in Wireshark helps IT professionals diagnose network issu
 <img src="https://i.imgur.com/sOk04kJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
- 
+Configuring a Network Security Group (NSG) in Azure is crucial for network security, traffic management, and compliance. By defining inbound and outbound rules, you can restrict access to your Azure resources, block malicious traffic, and ensure only legitimate users can interact with your systems. Properly configured NSGs play a key role in safeguarding your Azure infrastructure and maintaining a secure network environment.
 </p>
 <br />
 
